@@ -4,7 +4,7 @@
 
 body {
 
-	background-image: url("../images/bg-pattern.png");
+	background-image: url("images/main-page/bg-pattern.png");
 	background-repeat: repeat;
 	text-align: center;
 
@@ -73,7 +73,7 @@ button {
 
 	border-style: none;
 
-	box-shadow: 0pt 11.25pt 22.5pt rgba(0,160,255, 0.3);
+	box-shadow: 0pt 8pt 12pt rgba(0,160,255, 0.3);
 
 	height: 37.5pt;
 	border-radius: 3pt;
@@ -84,22 +84,23 @@ button {
 	margin-right: 9.75pt;
 	margin-bottom: 9.75pt;
 
-	transition: all 0.2s ease-in-out;
+	transition: all 0.2s;
 
 }
 
 
 button:hover {
 
-	box-shadow: none;
-	transform: scale(0.96);
+	box-shadow: 0pt 8pt 30pt rgba(0,160,255, 0.3);
+	transform: scale(1.10);
 
 }
 
 
 button:active {
 
-	transform: scale(0.85);
+	transform: scale(0.95);
+	background-color: #A0DCFF;
 
 }
 
@@ -117,7 +118,7 @@ button:focus {
 	margin-bottom: 9.75pt;
 	background-color: #D9328E;
 
-	box-shadow: 0pt 10pt 37.5pt rgba(217,50,142, 0.35);
+	box-shadow: 0pt 8pt 12pt rgba(217,50,142, 0.35);
 
 	text-align: left;
 
@@ -126,7 +127,7 @@ button:focus {
 
 #github-button:hover {
 
-	box-shadow: none;
+	box-shadow: 0pt 8pt 30pt rgba(217,50,142, 0.35);
 
 }
 
@@ -136,7 +137,7 @@ button:focus {
 	width: 137.5pt;
 	background-color: #1769FF;
 
-	box-shadow: 0pt 7.5pt 45pt rgba(23,105,255, 0.4);
+	box-shadow: 0pt 8pt 12pt rgba(23,105,255, 0.4);
 
 	text-align: left;
 
@@ -147,7 +148,7 @@ button:focus {
 
 #behance-button:hover {
 
-	box-shadow: none;
+	box-shadow: 0pt 8pt 30pt rgba(23,105,255, 0.4);
 
 }
 
