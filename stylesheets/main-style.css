@@ -1,0 +1,236 @@
+
+/* TEXT & BODY */
+
+
+body {
+
+	background-image: url("../images/bg-pattern.png");
+	background-repeat: repeat;
+	text-align: center;
+
+}
+
+
+h1 {
+
+	letter-spacing: 1.5pt;
+	font-size: 28pt;
+	color: #484848;
+
+	font-weight: bold;
+
+	padding-bottom: 18.75px;
+
+}
+
+
+h2 {
+
+	letter-spacing: 1.5pt;
+	font-size: 15pt;
+	color: #484848;
+
+	font-weight: bold;
+
+}
+
+
+p {
+
+	font-size: 12pt;
+	color: #959595;
+	line-height: 21pt;
+
+	font-family: 'Droid Serif', serif;
+
+	padding-bottom: 18.75pt;
+
+	font-weight: 300;
+
+}
+
+
+.card-header {
+
+	margin-bottom: 0pt;
+
+}
+
+
+
+
+/* BUTTONS */
+
+
+button {
+
+	background-color: #55C0FF;
+	color: #FFFFFF;
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15pt;
+	font-weight: bold;
+
+	border-style: none;
+
+	box-shadow: 0pt 11.25pt 22.5pt rgba(0,160,255, 0.3);
+
+	height: 37.5pt;
+	border-radius: 3pt;
+
+	padding-left: 18.75pt;
+	padding-right: 18.75pt;
+
+	margin-right: 9.75pt;
+	margin-bottom: 9.75pt;
+
+	transition: all 0.2s ease-in-out;
+
+}
+
+
+button:hover {
+
+	box-shadow: none;
+	transform: scale(0.96);
+
+}
+
+
+button:active {
+
+	transform: scale(0.85);
+
+}
+
+
+button:focus {
+
+	outline: 0;
+
+}
+
+
+#github-button {
+
+	width: 137.5pt;
+	margin-bottom: 9.75pt;
+	background-color: #D9328E;
+
+	box-shadow: 0pt 10pt 37.5pt rgba(217,50,142, 0.35);
+
+	text-align: left;
+
+}
+
+
+#github-button:hover {
+
+	box-shadow: none;
+
+}
+
+
+#behance-button {
+
+	width: 137.5pt;
+	background-color: #1769FF;
+
+	box-shadow: 0pt 7.5pt 45pt rgba(23,105,255, 0.4);
+
+	text-align: left;
+
+	margin-bottom: 0pt;
+
+}
+
+
+#behance-button:hover {
+
+	box-shadow: none;
+
+}
+
+
+#resume-button {
+
+	width: 137.5pt;
+	text-align: left;
+	margin-bottom: 0pt;
+
+}
+
+
+
+
+
+/* PAGE FORMATTING */
+
+
+#centering-div {
+
+	display: inline-block;
+
+}
+
+
+#wrapper {
+
+	display: flex;
+
+	width: 660pt;
+	margin: 18.75pt;
+
+}
+
+
+#sidebar-wrapper {
+
+	display: flex;
+	flex-direction: column;
+
+	width: 250pt;
+
+}
+
+
+.card {
+
+	background-color: #FFFFFF;
+	border-radius: 6pt;
+
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: left;
+
+	box-shadow: 0pt 15pt 37.5pt rgba(0,0,0,0.15);
+
+	padding: 37.5pt;
+	padding-top: 18.75pt;
+	margin: 18.75pt;
+
+}
+
+
+#profile-card {
+
+	flex: 1;
+	height: 360pt;
+
+}
+
+
+#m-work-card {
+
+	flex: 1.2;
+	height: 10pt;
+	padding-top: 18.75pt;
+
+}
+
+
+#resume-card {
+
+	flex: 0.8;
+	height: 10pt;
+
+}
