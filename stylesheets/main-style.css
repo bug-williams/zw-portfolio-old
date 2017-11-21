@@ -4,7 +4,7 @@
 
 body {
 
-	background-image: url("images/main-page/bg-pattern.png");
+	background-image: url("../images/main-page/bg-pattern.png");
 	background-repeat: repeat;
 	text-align: center;
 
@@ -84,15 +84,15 @@ button {
 	margin-right: 9.75pt;
 	margin-bottom: 9.75pt;
 
-	transition: all 0.2s;
+	transition: all 0.15s ease-out;
 
 }
 
 
 button:hover {
 
-	box-shadow: 0pt 8pt 30pt rgba(0,160,255, 0.3);
-	transform: scale(1.10);
+	box-shadow: 0pt 12pt 16pt rgba(0,160,255, 0.3);
+	transform: scale(1.08);
 
 }
 
@@ -100,6 +100,7 @@ button:hover {
 button:active {
 
 	transform: scale(0.95);
+	box-shadow: none;
 	background-color: #A0DCFF;
 
 }
@@ -127,7 +128,16 @@ button:focus {
 
 #github-button:hover {
 
-	box-shadow: 0pt 8pt 30pt rgba(217,50,142, 0.35);
+	box-shadow: 0pt 12pt 16pt rgba(217,50,142, 0.35);
+
+}
+
+
+#github-button:active {
+
+	transform: scale(0.95);
+	box-shadow: none;
+	background-color: #D88AB5;
 
 }
 
@@ -148,7 +158,16 @@ button:focus {
 
 #behance-button:hover {
 
-	box-shadow: 0pt 8pt 30pt rgba(23,105,255, 0.4);
+	box-shadow: 0pt 12pt 16pt rgba(23,105,255, 0.4);
+
+}
+
+
+#behance-button:active {
+
+	transform: scale(0.95);
+	box-shadow: none;
+	background-color: #92B7FC;
 
 }
 
@@ -158,6 +177,14 @@ button:focus {
 	width: 137.5pt;
 	text-align: left;
 	margin-bottom: 0pt;
+
+}
+
+
+#linkedin-button {
+
+	background: url("../icons/linkedin.svg");
+	background-size: 100%;
 
 }
 
