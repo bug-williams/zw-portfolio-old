@@ -185,6 +185,7 @@ button:focus {
 
 	background: url("../icons/linkedin.svg");
 	background-size: 100%;
+	background-position: center;
 
 }
 
