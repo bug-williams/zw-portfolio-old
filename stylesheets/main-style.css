@@ -62,7 +62,7 @@ p {
 /* BUTTONS */
 
 
-button {
+input {
 
 	background-color: #55C0FF;
 	color: #FFFFFF;
@@ -89,7 +89,7 @@ button {
 }
 
 
-button:hover {
+input:hover {
 
 	box-shadow: 0pt 12pt 16pt rgba(0,160,255, 0.3);
 	transform: scale(1.08);
@@ -97,7 +97,7 @@ button:hover {
 }
 
 
-button:active {
+input:active {
 
 	transform: scale(0.95);
 	box-shadow: none;
@@ -106,7 +106,7 @@ button:active {
 }
 
 
-button:focus {
+input:focus {
 
 	outline: 0;
 
@@ -269,5 +269,12 @@ button:focus {
 
 	flex: 0.8;
 	height: 10pt;
+
+}
+
+
+form {
+
+	display: inline;
 
 }
