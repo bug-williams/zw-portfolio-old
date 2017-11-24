@@ -50,6 +50,15 @@ p {
 }
 
 
+#main-header {
+
+	background-image: url(../images/main-page/highlight.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+
 .card-header {
 
 	margin-bottom: 0pt;
