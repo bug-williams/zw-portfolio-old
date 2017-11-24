@@ -128,6 +128,7 @@ input:focus {
 	background-image: url(../icons/github.svg);
 	background-repeat: no-repeat;
 	background-position: right;
+	background-size: 120%;
 
 	box-shadow: 0pt 8pt 12pt rgba(0,160,255, 0.3);
 
@@ -159,6 +160,7 @@ input:focus {
 	background-image: url(../icons/behance.svg);
 	background-repeat: no-repeat;
 	background-position: right;
+	background-size: 120%;
 
 	box-shadow: 0pt 8pt 12pt rgba(0,160,255, 0.3);
 
