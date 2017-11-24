@@ -14,7 +14,7 @@ body {
 h1 {
 
 	letter-spacing: 1.5pt;
-	font-size: 28pt;
+	font-size: 27pt;
 	color: #484848;
 
 	font-weight: bold;
@@ -37,11 +37,11 @@ h2 {
 
 p {
 
-	font-size: 12pt;
+	font-size: 11pt;
 	color: #959595;
-	line-height: 21pt;
+	line-height: 20pt;
 
-	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
 
 	padding-bottom: 18.75pt;
 
@@ -67,8 +67,8 @@ input {
 	background-color: #55C0FF;
 	color: #FFFFFF;
 
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 15pt;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14pt;
 	font-weight: bold;
 
 	border-style: none;
@@ -236,7 +236,7 @@ input:focus {
 	background-color: #FFFFFF;
 	border-radius: 6pt;
 
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	text-align: left;
 
 	box-shadow: 0pt 15pt 37.5pt rgba(0,0,0,0.15);
