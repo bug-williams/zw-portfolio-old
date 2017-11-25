@@ -360,7 +360,7 @@ input:focus {
 
 #nikhedonia-tile {
 
-	background-image: url(../images/main-page/ipad.png);
+	background-image: url(../images/main-page/ipad.jpg);
 	background-size: 120%;
 
 	color: #FFFFFF;
@@ -370,7 +370,7 @@ input:focus {
 
 #rps-rush-tile {
 
-	background-image: url(../images/main-page/fist.png);
+	background-image: url(../images/main-page/fist.jpg);
 	background-size: 150%;
 
 	color: #FFFFFF;
@@ -380,7 +380,7 @@ input:focus {
 
 #rpg-dice-tile {
 
-	background-image: url(../images/main-page/tabletop.png);
+	background-image: url(../images/main-page/tabletop.jpg);
 	background-size: 150%;
 
 	color: #FFFFFF;
