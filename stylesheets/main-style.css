@@ -72,6 +72,30 @@ p {
 }
 
 
+.in-progress-banner {
+
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+
+	background-image: url(../images/main-page/banner.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding-left: 15pt;
+	padding-right: 18.75pt;
+
+	font-size: 10pt;
+
+	line-height: 20pt;
+
+	color: #959595;
+
+	float: right;
+	margin-right: -18.75pt;
+
+}
+
+
 
 
 /* BUTTONS */
@@ -239,6 +263,14 @@ input:focus {
 .expand-button:hover {
 
 	box-shadow: none;
+
+}
+
+
+.view-more-button {
+
+	width: 100%;
+	margin-top: 18.75pt;
 
 }
 
