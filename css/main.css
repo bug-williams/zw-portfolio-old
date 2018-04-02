@@ -1,0 +1,70 @@
+
+html {
+
+    font-family: "Roboto Mono", monospace;
+
+}
+
+
+body {
+
+    background-image: url("../assets/patterns/bg-pattern.png");
+	background-repeat: repeat;
+
+    padding: none;
+
+}
+
+
+#wrapper {
+
+    width: 100% - 100px;
+
+    margin: none;
+    padding: 50px;
+
+    display: grid;
+    grid-template-areas: "main main main main   resume resume"
+                         "main main main main   work   work  "
+                         "apps apps apps design design design";
+    grid-template-rows: 2fr 3fr 5fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 50px;
+
+}
+
+
+.card {
+
+    border-radius: 6pt;
+
+    background-color: #FFFFFF;
+
+	box-shadow: 0pt 15pt 37.5pt rgba(0,0,0,0.15);
+
+}
+
+
+#main-card {
+    grid-area: main;
+}
+
+
+#resume-card {
+    grid-area: resume;
+}
+
+
+#work-card {
+    grid-area: work;
+}
+
+
+#apps-card {
+    grid-area: apps;
+}
+
+
+#design-card {
+    grid-area: design;
+}

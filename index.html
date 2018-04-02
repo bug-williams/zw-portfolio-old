@@ -1,103 +1,43 @@
 <!DOCTYPE html>
-
-
 <html>
-
 
 <head>
 
 	<title>Zachary Williams</title>
 
-	<link rel="stylesheet" type="text/css" href="stylesheets/main-style.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
 
 </head>
 
-
 <body>
 
-	<div class="centering-div">
+    <div id="wrapper">
 
-		<div id="wrapper">
+        <div class="card" id="main-card">
+            main
+        </div>
 
-			<div id="profile-card" class="card">
+        <div class="card" id="resume-card">
+            resume
+        </div>
 
-				<h1 id="main-header">ZACHARY WILLIAMS</h1>
-				<h2>HELLO!</h2>
-				<p>
-					My name is Zachary, and I am a freshman undergraduate student studying computer science at the Rochester Institute of Technology in New York. I am facinated with building things, and I have experience in the field of user experience design and software development. Thanks for stopping by!
-				</p>
-				<h2>CONTACT ME</h2>
-				<form><input type="button" value="Email" onclick="window.location.href=''"/></form> 
-				<form><input type="button" value="Phone" onclick="window.location.href=''"/></form>
-				<form><input id="linkedin-button" type="button" value="&nbsp;" onclick="window.location.href='https://www.linkedin.com/in/zachary-williams-9b9125125/'"/></form> 
-				<form><input id="twitter-button" type="button" value="&nbsp;" onclick="window.location.href='https://twitter.com/ZachTheSloth'"/></form>
-				
-			</div>
+        <div class="card" id="work-card">
+            work
+        </div>
 
-			<div id="sidebar-wrapper">
+        <div class="card" id="apps-card">
+            apps
+        </div>
+        
+        <div class="card" id="design-card">
+            design
+        </div>
 
-				<div id="resume-card" class="card">
-					<h1 class="card-header">RESUME</h1>
-					<form><input id="resume-button" type="button" value="View Resume" onclick="window.location.href=''"/></form>
-				</div>
-
-				<div id="m-work-card" class="card">
-					<h1 class="card-header">[+] WORK</h1>
-					<form><input id="github-button" type="button" value="Github" onclick="window.location.href='https://github.com/ZachTheSloth'"/></form>
-					<form><input id="behance-button" type="button" value="Behance" onclick="window.location.href='https://www.behance.net/zacharywilliams'"/></form>
-				</div>
-
-			</div>
-
-		</div>
-		
-	</div>	
-
-	<div class="centering-div">
-
-		<div id="category-wrapper">
-
-			<div id="software-card" class="card">
-
-				<h1 class="card-header">APPS</h1>
-
-				<div class="app-tile" id="nikhedonia-tile">
-					<h2 class="white-text">NIKHEDONIA</h2>
-					<p class="white-text">A turn-based strategy game for iOS. Written in Swift.</p>
-					<form><input class="expand-button" type="button" value="+" onclick="window.location.href=''"/></form>
-					<div class="in-progress-banner">IN DEVELOPMENT</div>
-				</div>
-				<div class="app-tile" id="rps-rush-tile">
-					<h2 class="white-text">ROCK, PAPER, SCISSORS, RUSH!</h2>
-					<p class="white-text">An arcade game which requires fast tapping and even faster thinking. Written in Swift.</p>
-					<form><input class="expand-button" type="button" value="+" onclick="window.location.href=''"/></form>
-				</div>
-				<form><input class="view-more-button" type="button" value="View All" onclick="window.location.href=''"/></form>
-				<!-- <div class="app-tile" id="rpg-dice-tile">
-					<h2 class="white-text">TABLETOP RPG DICE</h2>
-					<p class="white-text">A dice-rolling app designed for tabletop role-playing games. Written in swift.</p>
-					<form><input class="expand-button" type="button" value="+" onclick="window.location.href=''"/></form>
-				</div> -->
-
-			</div>
-			<div id="design-card" class="card">
-
-				<h1 class="card-header">DESIGN WORK</h1>
-
-				<div class="app-tile"></div>
-				<div class="app-tile"></div>
-				<div class="app-tile"></div>
-
-			</div>
-
-		</div>
-
-	</div>
+    </div>
 
 </body>
-
 
 </html>
