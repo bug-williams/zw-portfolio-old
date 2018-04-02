@@ -11,16 +11,41 @@ body {
     background-image: url("../assets/patterns/bg-pattern.png");
 	background-repeat: repeat;
 
+    text-align: center;
+
     padding: none;
+
+}
+
+
+h1 {
+
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #484848;
+    line-height: 0px;
+    letter-spacing: 1.5pt;
+
+    padding-bottom: 50px;
+
+}
+
+
+#centering-container {
+
+    display: inline-block;
+
+    padding: none;
+    margin: none;
+    line-height: none;
 
 }
 
 
 #wrapper {
 
-    width: 100% - 100px;
-
-    margin: none;
+    width: 1200px;
     padding: 50px;
 
     display: grid;
@@ -31,16 +56,19 @@ body {
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 50px;
 
+    text-align: left;
+
 }
 
 
 .card {
 
-    border-radius: 6pt;
+    padding: 50px;
+    border-radius: 8px;
 
     background-color: #FFFFFF;
 
-	box-shadow: 0pt 15pt 37.5pt rgba(0,0,0,0.15);
+	box-shadow: 0pt 20px 50px rgba(0,0,0,0.15);
 
 }
 
