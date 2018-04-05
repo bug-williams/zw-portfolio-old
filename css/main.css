@@ -7,14 +7,9 @@ html {
 
 
 body {
-
-    background-image: url("../assets/patterns/bg-pattern.png");
-	background-repeat: repeat;
-
+    background: url("../assets/images/patterns/bg-pattern.png") repeat;
     text-align: center;
-
     padding: none;
-
 }
 
 
@@ -22,12 +17,39 @@ h1 {
 
     font-family: "Rubik", sans-serif;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 34px;
     color: #484848;
     line-height: 0px;
-    letter-spacing: 1.5pt;
+    letter-spacing: 3px;
 
-    padding-bottom: 50px;
+    margin-bottom: 75px;
+
+}
+
+
+h2 {
+
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #484848;
+    line-height: 0px;
+
+    margin-top: 25px;
+
+    letter-spacing: 2px;
+
+}
+
+
+p {
+
+    color: #959595;
+    line-height: 25px;
+    font-size: 14px;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
 
 }
 
@@ -45,15 +67,13 @@ h1 {
 
 #wrapper {
 
-    width: 1200px;
+    width: 800px;
     padding: 50px;
 
     display: grid;
-    grid-template-areas: "main main main main   resume resume"
-                         "main main main main   work   work  "
-                         "apps apps apps design design design";
-    grid-template-rows: 2fr 3fr 5fr;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "m m m m r r"
+                         "m m m m w w"
+                         "a a a d d d";
     grid-gap: 50px;
 
     text-align: left;
@@ -74,25 +94,35 @@ h1 {
 
 
 #main-card {
-    grid-area: main;
+
+    grid-area: m;
+
 }
 
 
 #resume-card {
-    grid-area: resume;
+
+    grid-area: r;
+
 }
 
 
 #work-card {
-    grid-area: work;
+
+    grid-area: w;
+
 }
 
 
 #apps-card {
-    grid-area: apps;
+
+    grid-area: a;
+
 }
 
 
 #design-card {
-    grid-area: design;
+
+    grid-area: d;
+
 }
