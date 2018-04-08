@@ -7,9 +7,11 @@ html {
 
 
 body {
+
     background: url("../assets/images/patterns/bg-pattern.png") repeat;
     text-align: center;
     padding: none;
+
 }
 
 
@@ -54,6 +56,54 @@ p {
 }
 
 
+a {
+
+    display: inline-block;
+
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 18px;
+
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    margin-top: 15px;
+    margin-right: 5px;
+
+    border-radius: 4px;
+
+    background-color: #81BEF4;
+    text-decoration: none;
+    color: #FFFFFF;
+
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50);
+    -moz-box-shadow:    0px 4px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50);
+    box-shadow:         0px 4px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50);
+
+    -webkit-transition: all 0.15s ease-in-out; /* Safari */
+    transition: all 0.15s ease-in-out;
+
+} a:hover {
+
+    transform: translateY(-8px);
+
+    -webkit-box-shadow: 0px 8px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50), 0px 18px 25px 0px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow:    0px 8px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50), 0px 18px 25px 0px rgba(50, 50, 50, 0.25);
+    box-shadow:         0px 8px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50), 0px 18px 25px 0px rgba(50, 50, 50, 0.25);
+
+} a:active {
+
+    transform: translateY(4px);
+
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(127, 154, 188, 1);
+    -moz-box-shadow:    0px 0px 0px 0px rgba(127, 154, 188, 1);
+    box-shadow:         0px 0px 0px 0px rgba(127, 154, 188, 1);
+
+}
+
+
 #centering-container {
 
     display: inline-block;
@@ -67,7 +117,7 @@ p {
 
 #wrapper {
 
-    width: 800px;
+    width: 850px;
     padding: 50px;
 
     display: grid;
@@ -77,6 +127,47 @@ p {
     grid-gap: 50px;
 
     text-align: left;
+
+}
+
+
+@media all and (max-width: 950px) and (min-width: 400px) {
+
+    #wrapper {
+
+        width: 600px;
+        padding: 50px;
+
+        display: grid;
+        grid-template-areas: "m m"
+                             "r w"
+                             "a a"
+                             "d d";
+        grid-gap: 50px;
+        text-align: left;
+
+    }
+
+}
+
+
+@media all and (max-width: 439px) {
+
+    #wrapper {
+
+        width: 100%;
+        padding: 25px;
+
+        display: grid;
+        grid-template-areas: "m"
+                             "a"
+                             "d"
+                             "w"
+                             "r";
+        grid-gap: 25px;
+        text-align: left;
+
+    }
 
 }
 
