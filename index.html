@@ -34,7 +34,7 @@
         	</div>
 
         	<div class="card" id="work-card">
-            	<h1>WORK</h1>
+            	<h1>[+] WORK</h1>
         	</div>
 
         	<div class="card" id="apps-card">
@@ -49,6 +49,16 @@
 
 	</div>
 
-</body>
+	<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+	<script type="text/javascript">
+
+		VanillaTilt.init(document.querySelectorAll(".card"), {
+			scale: 1.05,
+			max: 10,
+			glare: true,
+			"max-glare": 0.2
+		});
+
+	</script>
 
 </html>

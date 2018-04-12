@@ -26,6 +26,12 @@ h1 {
 
     margin-bottom: 75px;
 
+    background: url("../assets/images/patterns/highlight.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    background-size: 100% 100%;
+
 }
 
 
@@ -78,28 +84,24 @@ a {
     text-decoration: none;
     color: #FFFFFF;
 
-    -webkit-box-shadow: 0px 4px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50);
-    -moz-box-shadow:    0px 4px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50);
-    box-shadow:         0px 4px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50);
-
     -webkit-transition: all 0.15s ease-in-out; /* Safari */
     transition: all 0.15s ease-in-out;
 
+    box-shadow: 0pt 20px 50px rgba(150, 190, 235, 0.50);
+
+    transform: translateZ(50px);
+
 } a:hover {
 
-    transform: translateY(-4px);
+    transform: translateZ(25px);
 
-    -webkit-box-shadow: 0px 8px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50), 0px 18px 25px 0px rgba(50, 50, 50, 0.15);
-    -moz-box-shadow:    0px 8px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50), 0px 18px 25px 0px rgba(50, 50, 50, 0.15);
-    box-shadow:         0px 8px 0px 0px rgba(127, 154, 188, 1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.50), 0px 18px 25px 0px rgba(50, 50, 50, 0.15);
+    background-color: #8FC9FC;
+    box-shadow: 0pt 10px 40px rgba(150, 190, 235, 0.70);
 
 } a:active {
 
-    transform: translateY(4px);
-
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(127, 154, 188, 1);
-    -moz-box-shadow:    0px 0px 0px 0px rgba(127, 154, 188, 1);
-    box-shadow:         0px 0px 0px 0px rgba(127, 154, 188, 1);
+    transform: translateZ(1px);
+    box-shadow: none;
 
 }
 
@@ -151,7 +153,7 @@ a {
 }
 
 
-@media all and (max-width: 439px) {
+@media all and (max-width: 399px) and (min-wdith: 0px) {
 
     #wrapper {
 
@@ -180,6 +182,8 @@ a {
     background-color: #FFFFFF;
 
 	box-shadow: 0pt 20px 50px rgba(0,0,0,0.15);
+
+    transform-style: preserve-3d;
 
 }
 
