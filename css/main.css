@@ -2,6 +2,7 @@
 html {
 
     font-family: "Roboto Mono", monospace;
+    box-sizing: border-box;
 
 }
 
@@ -15,6 +16,24 @@ body {
 }
 
 
+.parallax {
+
+    transform-style: preserve-3d;
+
+}
+
+
+#main-header {
+
+    margin-bottom: 75px;
+
+    background-image: url("../assets/images/patterns/highlight.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+
 h1 {
 
     font-family: "Rubik", sans-serif;
@@ -23,14 +42,6 @@ h1 {
     color: #484848;
     line-height: 0px;
     letter-spacing: 3px;
-
-    margin-bottom: 75px;
-
-    background: url("../assets/images/patterns/highlight.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-clip: content-box;
-    background-size: 100% 100%;
 
 }
 
@@ -87,21 +98,54 @@ a {
     -webkit-transition: all 0.15s ease-in-out; /* Safari */
     transition: all 0.15s ease-in-out;
 
-    box-shadow: 0pt 20px 50px rgba(150, 190, 235, 0.50);
-
-    transform: translateZ(50px);
+    box-shadow: 0px 5px 10px rgba(150, 190, 235, 0.50);
 
 } a:hover {
 
-    transform: translateZ(25px);
-
-    background-color: #8FC9FC;
-    box-shadow: 0pt 10px 40px rgba(150, 190, 235, 0.70);
+    box-shadow: 0px 10px 15px rgba(150, 190, 235, 0.50);
 
 } a:active {
 
-    transform: translateZ(1px);
     box-shadow: none;
+
+}
+
+
+#linkedin-button {
+
+    background-image: url("../assets/icons/linkedin.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 27px;
+    margin-bottom: -20px;
+
+}
+
+
+#twitter-button {
+
+    background-image: url("../assets/icons/twitter.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 27px;
+    margin-bottom: -20px;
+
+}
+
+
+#view-all-button {
+
+    text-align: center;
+
+}
+
+
+.full-width-button {
+
+    width: 100%;
+    box-sizing: border-box;
 
 }
 
@@ -183,7 +227,21 @@ a {
 
 	box-shadow: 0pt 20px 50px rgba(0,0,0,0.15);
 
-    transform-style: preserve-3d;
+}
+
+
+.project-card {
+
+    padding: 25px;
+    padding-top: 10px;
+
+} .project-card h2 {
+
+    color: #FFFFFF;
+
+} .project-card p {
+
+    color: #FFFFFF;
 
 }
 
@@ -219,5 +277,26 @@ a {
 #design-card {
 
     grid-area: d;
+
+}
+
+
+#top-app {
+
+    margin-top: 75px;
+    margin-bottom: 25px;
+
+    background-image: url("../assets/images/project-images/ipad.jpg");
+    background-size: cover;
+
+}
+
+
+#middle-app {
+
+    background-image: url("../assets/images/project-images/fist.jpg");
+    background-size: cover;
+
+    margin-bottom: 10px;
 
 }

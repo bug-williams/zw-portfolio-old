@@ -19,30 +19,48 @@
     	<div id="wrapper">
 
         	<div class="card" id="main-card">
-            	<h1>ZACHARY WILLIAMS</h1>
+            	<h1 id="main-header">ZACHARY WILLIAMS</h1>
 				<h2>HELLO!</h2>
 				<p>
 					My name is Zach, and I am a freshman undergraduate student studying computer science at the Rochester Institute of Technology in New York. I am facinated with building things, and I have experience in the field of user experience design and software development. Thanks for stopping by!
 				</p>
 				<h2>CONTACT ME</h2>
-				<a href="">Phone</a>
-				<a href="">Email</a>
+				<a href="tel:301-875-6123" class="button-parallax">Phone</a>
+				<a href="mailto:zachwilliams.me@gmail.com" class="button-parallax">Email</a>
+				<a href="https://www.linkedin.com/in/z-n-w/" class="button-parallax" id="linkedin-button"></a>
+				<a href="https://twitter.com/ZachTheSloth" class="button-parallax" id="twitter-button"></a>
         	</div>
 
         	<div class="card" id="resume-card">
             	<h1>RESUME</h1>
+				<a href="assets/files/zachary-williams-resume.pdf" class="full-width-button button-parallax">View Resume</a>
         	</div>
 
         	<div class="card" id="work-card">
             	<h1>[+] WORK</h1>
+				<a href="https://github.com/ZachTheSloth" class="full-width-button button-parallax">Github</a><br>
+				<a href="https://www.behance.net/zacharywilliams" class="full-width-button button-parallax">Behance</a>
         	</div>
 
         	<div class="card" id="apps-card">
-            	<h1>APPS</h1>
+            	<h1>SOFTWARE</h1>
+				<div class="project-card card parallax" id="top-app">
+					<h2>NIKHEDONIA</h2>
+					<p>
+						Nikhedonia is a two-player strategy game based off the board game Go. Written in Swift using SpriteKit. Available on the Apple App Store.
+					</p>
+				</div>
+				<div class="project-card card parallax" id="middle-app">
+					<h2>RPS RUSH!</h2>
+					<p>
+						Rock, Paper, Scissors, RUSH! is a singleplayer arcade game written in Swift. Available on the Apple App Store.
+					</p>
+				</div>
+				<a href="" class="full-width-button button button-parallax" id="view-all-button">View All</a>
         	</div>
 
         	<div class="card" id="design-card">
-            	<h1>DESIGN</h1>
+            	<h1>DESIGN WORK</h1>
         	</div>
 
     	</div>
@@ -52,11 +70,18 @@
 	<script type="text/javascript" src="js/vanilla-tilt.js"></script>
 	<script type="text/javascript">
 
-		VanillaTilt.init(document.querySelectorAll(".card"), {
+		VanillaTilt.init(document.querySelectorAll(".parallax"), {
 			scale: 1.05,
-			max: 10,
+			max: 13,
 			glare: true,
 			"max-glare": 0.2
+		});
+
+		VanillaTilt.init(document.querySelectorAll(".button-parallax"), {
+			scale: 1.05,
+			max: 0,
+			glare: true,
+			"max-glare": 0.5
 		});
 
 	</script>
