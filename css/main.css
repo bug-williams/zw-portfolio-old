@@ -57,9 +57,7 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     color: #484848;
-    line-height: 0px;
-
-    margin-top: 25px;
+    line-height: 25px;
 
     letter-spacing: 2px;
 
@@ -72,7 +70,6 @@ p {
     line-height: 25px;
     font-size: 14px;
 
-    margin-top: 25px;
     margin-bottom: 50px;
 
 }
@@ -107,11 +104,52 @@ a {
 
 } a:hover {
 
-    box-shadow: 0px 10px 15px rgba(150, 190, 235, 0.50);
+    box-shadow: 0px 6px 15px rgba(150, 190, 235, 0.50);
 
 } a:active {
 
     box-shadow: none;
+
+}
+
+
+.details-button {
+
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    margin-top: 0px;
+
+    box-sizing: border-box;
+    width: 100%;
+
+    background-color: rgba(255,255,255,0.3);
+    color: #FFFFFF;
+
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 18px;
+
+    text-align: center;
+
+    box-shadow: none;
+
+    transform: translateZ(30px);
+
+} .details-button:hover {
+
+    box-shadow: none;
+    transform: translateZ(60px);
+
+    background-color: rgba(255,255,255,0.85);
+    color: #484848;
+
+} .details-button:active {
+
+    box-shadow: none;
+    transform: translateZ(0px);
 
 }
 
@@ -155,6 +193,26 @@ a {
 }
 
 
+#github-button {
+
+    background-image: url("../assets/images/icons/github.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 120%;
+
+}
+
+
+#behance-button {
+
+    background-image: url("../assets/images/icons/behance.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 120%;
+
+}
+
+
 #centering-container {
 
     display: inline-block;
@@ -172,9 +230,10 @@ a {
     padding: 50px;
 
     display: grid;
-    grid-template-areas: "m m m m r r"
-                         "m m m m w w"
-                         "a a a d d d";
+    grid-template-areas: "t t t t"
+                         "m m m r"
+                         "m m m w"
+                         "a a d d";
     grid-gap: 50px;
 
     text-align: left;
@@ -186,11 +245,12 @@ a {
 
     #wrapper {
 
-        width: 600px;
+        width: 500px;
         padding: 50px;
 
         display: grid;
-        grid-template-areas: "m m"
+        grid-template-areas: "t t"
+                             "m m"
                              "r w"
                              "a a"
                              "d d";
@@ -202,7 +262,7 @@ a {
 }
 
 
-@media all and (max-width: 399px) and (min-wdith: 0px) {
+@media all and (max-width: 399px) and (min-width: 0px) {
 
     #wrapper {
 
@@ -210,7 +270,8 @@ a {
         padding: 25px;
 
         display: grid;
-        grid-template-areas: "m"
+        grid-template-areas: "t"
+                             "m"
                              "a"
                              "d"
                              "w"
@@ -219,6 +280,32 @@ a {
         text-align: left;
 
     }
+
+}
+
+
+#tabs-area {
+
+    grid-area: t;
+
+    text-align: center;
+
+} #tabs-area a {
+
+    background: none;
+    color: #484848;
+
+    border-radius: 0px;
+
+    box-shadow: none;
+
+} #tabs-area #selected-tab {
+
+    border-bottom: 3px solid #CCCCCC;
+
+} #tabs-area a:hover {
+
+    color: #909090;
 
 }
 
@@ -247,6 +334,8 @@ a {
 } .project-card p {
 
     color: #FFFFFF;
+    margin-bottom: 25px;
+    opacity: 0.7;
 
 }
 
@@ -276,17 +365,7 @@ a {
 
     grid-area: a;
 
-}
-
-
-#design-card {
-
-    grid-area: d;
-
-}
-
-
-#top-app {
+} #top-app {
 
     margin-top: 75px;
     margin-bottom: 25px;
@@ -294,13 +373,30 @@ a {
     background-image: url("../assets/images/project-images/ipad.jpg");
     background-size: cover;
 
-}
-
-
-#middle-app {
+} #middle-app {
 
     background-image: url("../assets/images/project-images/fist.jpg");
     background-size: cover;
+
+    margin-bottom: 10px;
+
+}
+
+
+#design-card {
+
+    grid-area: d;
+
+} #top-design {
+
+    margin-top: 75px;
+    margin-bottom: 25px;
+
+    background: linear-gradient(to bottom right, #BD344B, #082440);
+
+} #middle-design{
+
+    background: linear-gradient(to bottom right, #01DCBA, #7F30CB);
 
     margin-bottom: 10px;
 

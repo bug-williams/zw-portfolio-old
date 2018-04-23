@@ -18,6 +18,11 @@
 
     	<div id="wrapper">
 
+			<div id="tabs-area">
+				<a href="" id="selected-tab">About</a>
+				<a href="">Blog</a>
+			</div>
+
         	<div class="card" id="main-card">
             	<h1 id="main-header">ZACHARY WILLIAMS</h1>
 				<h2>HELLO!</h2>
@@ -37,30 +42,47 @@
         	</div>
 
         	<div class="card" id="work-card">
-            	<h1>[+] WORK</h1>
-				<a href="https://github.com/ZachTheSloth" class="full-width-button button-parallax">Github</a><br>
-				<a href="https://www.behance.net/zacharywilliams" class="full-width-button button-parallax">Behance</a>
+            	<h1>WORK</h1>
+				<a href="https://github.com/ZachTheSloth" class="full-width-button button-parallax" id="github-button">Github</a><br>
+				<a href="https://www.behance.net/zacharywilliams" class="full-width-button button-parallax" id="behance-button">Behance</a>
         	</div>
 
         	<div class="card" id="apps-card">
-            	<h1>APPS</h1>
+            	<h1>PROJECTS</h1>
 				<div class="project-card card parallax" id="top-app">
 					<h2>NIKHEDONIA</h2>
 					<p>
 						Nikhedonia is a two-player strategy game based off the board game Go. Written in Swift using SpriteKit. Available on the Apple App Store.
 					</p>
+					<a href="nikhedonia.html" class="details-button">View Project</a>
 				</div>
 				<div class="project-card card parallax" id="middle-app">
-					<h2>R.P.S. RUSH!</h2>
+					<h2>ROCK, PAPER, SCISSORS, RUSH!</h2>
 					<p>
 						Rock, Paper, Scissors, RUSH! is a singleplayer arcade game written in Swift. Available on the Apple App Store.
 					</p>
+					<a href="" class="details-button">View Project</a>
 				</div>
 				<a href="" class="full-width-button button button-parallax" id="view-all-button">View All</a>
         	</div>
 
         	<div class="card" id="design-card">
             	<h1>DESIGN WORK</h1>
+				<div class="project-card card parallax" id="top-design">
+					<h2>CONTRAST SECURITY MOBILE APP</h2>
+					<p>
+						Mobile app design screens for Contrast Security. Added the functionality of the web platform, while adapting the UX for mobile users.
+					</p>
+					<a href="" class="details-button">View Design</a>
+				</div>
+				<div class="project-card card parallax" id="middle-design">
+					<h2>GRID-BASED OPERATING SYSTEM</h2>
+					<p>
+						A concept for a purely grid-based operating system. Ideal for touch-based interfaces, such as tablets.
+					</p>
+					<a href="" class="details-button">View Design</a>
+				</div>
+				<a href="" class="full-width-button button button-parallax" id="view-all-button">View All</a>
         	</div>
 
     	</div>
@@ -74,7 +96,7 @@
 			scale: 1.05,
 			max: 13,
 			glare: true,
-			"max-glare": 0.2
+			"max-glare": 0.25
 		});
 
 		VanillaTilt.init(document.querySelectorAll(".button-parallax"), {
