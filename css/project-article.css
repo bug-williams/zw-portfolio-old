@@ -1,0 +1,59 @@
+
+#wrapper {
+
+    margin-left: 50px;
+
+    grid-template-areas: "t"
+                         "m";
+
+}
+
+
+#text-wrapper {
+
+    display: inline;
+    width: 500px;
+    float: right;
+
+}
+
+
+#side-wrapper {
+
+    float: left;
+    display: inline;
+
+    width: 200px;
+
+}
+
+
+#main-image {
+
+    width: 300px;
+    margin-left: -100px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    vertical-align: top;
+
+    box-shadow: 0pt 20px 50px rgba(0,0,0,0.15);
+
+}
+
+
+p {
+
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+
+
+#call-to-action {
+
+    width: 130px;
+    margin-top: 25px;
+    text-align: center;
+
+}

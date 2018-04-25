@@ -217,8 +217,8 @@ a {
 
     display: inline-block;
 
-    padding: none;
-    margin: none;
+    padding: 0px;
+    margin: 0px;
     line-height: none;
 
 }
@@ -228,6 +228,7 @@ a {
 
     width: 850px;
     padding: 50px;
+    margin-top: 0px;
 
     display: grid;
     grid-template-areas: "t t t t"
@@ -288,6 +289,8 @@ a {
 
     grid-area: t;
 
+    margin-top: 0px;
+    padding-top: 0px;
     text-align: center;
 
 } #tabs-area a {
@@ -296,6 +299,7 @@ a {
     color: #484848;
 
     border-radius: 0px;
+    margin-top: 0px;
 
     box-shadow: none;
 
