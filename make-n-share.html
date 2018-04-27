@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Zachary Williams</title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/project-article.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="centering-container">
+
+    	<div id="wrapper">
+
+			<div id="tabs-area">
+				<a href="index.html" id="selected-tab">Home</a>
+				<a href="">Blog</a>
+			</div>
+
+            <div class="card" id="main-card">
+				<div id="side-wrapper">
+                	<img class="parallax main-image" src="assets/images/makenshare-1.PNG"><br>
+                    <img class="parallax main-image" src="assets/images/makenshare-2.PNG"><br>
+					<a href="https://github.com/MatthewMartino/MakeNShare" class="button-parallax" class="call-to-action">View Code</a>
+                    <a href="https://www.masprojects.site/makenshare/" class="button-parallax" class="call-to-action">Live Site</a>
+				</div>
+				<div id="text-wrapper">
+					<h1 id-"main-header">MAKE-N-SHARE</h1>
+					<p>
+						This project was created during the BrickHack 4 hackathon at The Rochester Institute of Technology, by a team of four people (including myself). I worked primaraly on the front end of the site, designing and building the user interface & user experience.
+						<br><br>
+						The entire website was built using custom HTML & CSS, with a PHP-based back end system. This allowed us to easiy build a custom layout using CSS grid, and experience writing a back end system from the ground up.
+                        <br><br>
+                        The intended end-goal of this project was to create a website where creators and producers could cheaply and easily print and share 3D objects. Those with 3D printing setups could allow other users to request prints, which would then be shipped to the other users for a fee. This would allow enthusiasts with their own 3D printers to make a profit, while also allowing those without printers to get access to their resources easily and inexpensively. For small creators, industrial printing setups bring along unnessisary fees and production times, which is a waste for one-off prints and smaller projects.
+                        <br><br>
+                        In the future, it would be possible to expand the community to other areas, such as lazer-engraving machines, wood carving machines, and other expensive tools which are frequently expensive and difficult to access.
+					</p>
+				</div>
+            </div>
+
+    	</div>
+
+	</div>
+
+	<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+	<script type="text/javascript">
+
+		VanillaTilt.init(document.querySelectorAll(".parallax"), {
+			scale: 1.05,
+			max: 13,
+			glare: true,
+			"max-glare": 0.25
+		});
+
+		VanillaTilt.init(document.querySelectorAll(".button-parallax"), {
+			scale: 1.05,
+			max: 0,
+			glare: true,
+			"max-glare": 0.5
+		});
+
+	</script>
+
+</html>

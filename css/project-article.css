@@ -28,7 +28,7 @@
 }
 
 
-#main-image {
+.main-image {
 
     width: 300px;
     margin-left: -100px;
@@ -50,7 +50,7 @@ p {
 }
 
 
-#call-to-action {
+.call-to-action {
 
     width: 130px;
     margin-top: 25px;

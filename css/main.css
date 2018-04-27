@@ -374,15 +374,21 @@ a {
     margin-top: 75px;
     margin-bottom: 25px;
 
-    background-image: url("../assets/images/project-images/ipad.jpg");
-    background-size: cover;
+    background: #323232; /* Old Browsers */
+    background: -webkit-linear-gradient(right,#323232,#4b4b4b); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,#323232,#4b4b4b); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,#323232,#4b4b4b); /*Fx 3.6-15*/
+    background: linear-gradient(to left, #323232, #4b4b4b); /*Standard*/
 
 } #middle-app {
 
-    background-image: url("../assets/images/project-images/fist.jpg");
-    background-size: cover;
-
     margin-bottom: 10px;
+
+    background: #323232; /* Old Browsers */
+    background: -webkit-linear-gradient(right,#323232,#4b4b4b); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,#323232,#4b4b4b); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,#323232,#4b4b4b); /*Fx 3.6-15*/
+    background: linear-gradient(to left, #323232, #4b4b4b); /*Standard*/
 
 }
 
