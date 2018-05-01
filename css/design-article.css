@@ -30,10 +30,9 @@
 
 .main-image {
 
-    width: 300px;
-    margin-left: -100px;
+    width: 100%;
     margin-right: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     border-radius: 8px;
     vertical-align: top;
 
@@ -67,7 +66,7 @@ p {
 .call-to-action {
 
     width: 100%;
-    margin-top: 25px;
+    margin-top: 10px;
     text-align: center;
 
 }
