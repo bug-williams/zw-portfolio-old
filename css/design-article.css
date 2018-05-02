@@ -41,6 +41,31 @@
 }
 
 
+#thirds-wrapper {
+
+    display: grid;
+    grid-template-areas: "a b c";
+    grid-gap: 25px;
+    grid-row-gap: 0px;
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+} #thirds-wrapper #img-1 {
+
+    grid-area: a;
+
+} #thirds-wrapper #img-2 {
+
+    grid-area: b;
+
+} #thirds-wrapper #img-3 {
+
+    grid-area: c;
+
+}
+
+
 h1 {
 
     margin-bottom: 25px;
