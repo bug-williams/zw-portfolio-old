@@ -1,0 +1,32 @@
+
+#main-card {
+
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto-fit;
+    grid-auto-flow: dense;
+
+}
+
+
+#nikhedonia {
+
+    background: #323232; /* Old Browsers */
+    background: -webkit-linear-gradient(right,#323232,#4b4b4b); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,#323232,#4b4b4b); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,#323232,#4b4b4b); /*Fx 3.6-15*/
+    background: linear-gradient(to left, #323232, #4b4b4b); /*Standard*/
+
+}
+
+
+#makenshare {
+
+    background: #323232; /* Old Browsers */
+    background: -webkit-linear-gradient(right,#323232,#4b4b4b); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,#323232,#4b4b4b); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,#323232,#4b4b4b); /*Fx 3.6-15*/
+    background: linear-gradient(to left, #323232, #4b4b4b); /*Standard*/
+
+}
