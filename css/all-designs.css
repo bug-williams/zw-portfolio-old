@@ -1,0 +1,31 @@
+
+#main-card {
+
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto-fill;
+    grid-auto-flow: dense;
+
+}
+
+
+#hello-world-landing {
+    
+    background: linear-gradient(to bottom right, #283db7, #f94dc0);
+    
+}
+
+
+#contrast-app {
+
+    background: linear-gradient(to bottom right, #F857A6, #FF5858);
+
+}
+
+
+#grid-based-os {
+
+    background: linear-gradient(to bottom right, #81e4ca 0%, #349dcc 100%);
+
+}
